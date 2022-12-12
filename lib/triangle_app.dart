@@ -16,7 +16,7 @@ String detectTriangle(num sideA, num sideB, num sideC) {
   }
 
   if ((sides[0] + sides[1] <= sides[2]) ||(sides[0] + sides[2] <= sides[1]) ||(sides[1] + sides[2] <= sides[0])) {
-    throw Exception('Inequal Triangle');
+    throw Exception('Tis is Inequal Triangle');
   }
 
   if (sides[0] == sides[1] && sides[0] == sides[2]) {
